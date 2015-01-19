@@ -1,0 +1,21 @@
+<h3>Recent Articles</h3>
+<ol>
+  <% blog.articles[0...5].each do |article| %>
+    <li><%= link_to article.title, article %> <time><%= article.date.strftime('%b %e, %Y') %></time></li>
+  <% end %>
+</ol>
+
+<h3>Tags</h3>
+<ol>
+  <% blog.tags.each do |tag, articles| %>
+    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+  <% end %>
+</ol>
+
+<!--  IF WANT ARCHIVE
+<h2>By Year</h2>
+<ol>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+  <% end %>
+</ol> -->

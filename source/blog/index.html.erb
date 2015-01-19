@@ -1,0 +1,39 @@
+---
+title: Site Name Blog
+description: Site Description
+image: ~
+url: ~
+layout: blog
+pageable: true
+per_page: 10
+---
+
+<section class="posts">
+  <% page_articles.each_with_index do |article, i| %>
+  <article class="post">
+  <%#div class="post-image"><img src="http://placehold.it/700x200&text=Some+Image" /></div%>
+    <h2><%= link_to article.title, article %></h2>
+  <div class="post-meta">
+  <%#span class="post-author"><a href="#">Patrick</a></span%>
+  <time><%= article.date.strftime('%b %e, %Y') %></time>
+  <span class="post-tags"><%= article.tags.collect{|tag| link_to tag, tag_path(tag) }.join(", ") %></span>
+  </div>
+    <div class="post-summary"><%= article.summary(250) %></div>
+      <%= link_to "Continue Reading...", article, :class => "continue-link" %>
+  </article>
+  <% end %>
+</section>
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
