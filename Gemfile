@@ -19,6 +19,8 @@ gem "middleman-blog"
 
 gem "nokogiri"
 gem "rake"
+gem 'rack-contrib'
+gem 'puma'
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
