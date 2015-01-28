@@ -1,0 +1,32 @@
+
+<div class="contact-content email-box" id="email_box">
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <form id="contactUsForm" data-abide="ajax">
+    <div>
+      <label><input type="text" pattern="[a-zA-Z]+" name="Name" placeholder="Name" required></label>
+      <small class="error">Please enter a valid name</small>
+    </div>
+    <div>
+      <label><input type="email" pattern="email" name="Email" placeholder="Email" required></label>
+      <small class="error">Please enter a valid email</small>
+    </div>
+    <div>
+      <label><input type="text" pattern="phone" name="Phone" placeholder="Phone" required></label>
+      <small class="error">Please enter a valid 10-digit phone number</small>
+    </div>
+    <div>
+      <label><textarea name="message" name="Message" cols="5" rows="3" placeholder="Message" required></textarea></label>
+      <small class="error" >Please enter a message</small>
+    </div>
+    <div>
+      <button type="submit" id="send_contact">Send</button>
+        <small class="success">Thank you for reaching out to us. We'll be in touch soon!</small>
+    </div>
+  </form>
+</div>

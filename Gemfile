@@ -17,7 +17,7 @@ gem "middleman-imageoptim", "~> 0.1.4"
 gem "middleman-blog"
 #gem "middleman-title"
 
-gem "nokogiri"
+gem "nokogiri", '1.6.6.2'
 gem "rake"
 gem 'rack-contrib'
 gem 'puma'
@@ -31,9 +31,3 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 #  gem "better_errors"
 # end
 
-
-#------------------------------------------------------------------------
-# Deployment - requires additional configuration.  See links below
-gem 'middleman-aws'        # https://github.com/alienfast/middleman-aws
-gem 'middleman-s3_sync'    # https://github.com/fredjean/middleman-s3_sync
-gem 'middleman-cloudfront'  # https://github.com/andrusha/middleman-cloudfront

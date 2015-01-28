@@ -4,9 +4,9 @@
 
 # Configuration variables specific to each project
 #------------------------------------------------------------------------
-SITE_NAME                      = 'Site Name'
-URL_ROOT                        = 'http://sitename.dev.qsfllc.info/'
-AWS_BUCKET                      = 'sitename.dev.qsfllc.info'
+SITE_NAME                      = 'Kathy Izard'
+URL_ROOT                        = 'http://kathyizard.dev.qsfllc.info/'
+AWS_BUCKET                      = 'kathyizard.dev.qsfllc.info'
 AWS_CLOUDFRONT_DISTRIBUTION_ID  = 'xxxxxxxxxxxx'
 #GOOGLE_ANALYTICS_ID            = 'UA-XXXXXXX-X'
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%= data.page.title || "Site Name" %></title>
+    <title><%= data.page.title || "Kathy Izard" %></title>
     <%= partial "shared/head" %>
     
     <%= stylesheet_link_tag "app" %>
@@ -13,15 +13,12 @@
   
   <body class="<%= page_classes %><%= ' '+ data.page.style if data.page.style %>">
     <%= partial "shared/tag_manager" %>
-    <div class="logo2"><%= link_to image_tag("logo.png", alt: ""), "/" %></div>
     <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
       <%= partial "shared/mobile_nav" %>
         <%= partial "shared/header" %>
 
         <%= yield %>
-
-        <%= partial "shared/footer" %>
         
         <a class="exit-off-canvas"></a>
       </div>

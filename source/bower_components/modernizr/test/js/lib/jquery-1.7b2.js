@@ -6700,7 +6700,7 @@ if ( !jQuery.support.opacity ) {
 				// style.removeAttribute is IE Only, but so apparently is this code path...
 				style.removeAttribute( "filter" );
 
-				// if there there is no filter style applied in a css rule, we are done
+				// if there there is no filter style applied in a css rule,   done
 				if ( currentStyle && !currentStyle.filter ) {
 					return;
 				}

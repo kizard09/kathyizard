@@ -2,7 +2,19 @@
 @import "foundation.scss";
 @import "font-awesome";
 @import "style";
-
+@import "nav";
+@import "called-home";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import 'media_queries';
+@import 'index';
+@import 'connect';
+@import 'kathyizard';
+@import 'moore-place';
+@import 'ron-denver';
+@import 'quietgood';
 
 header {
   @include grid-row;

@@ -1487,7 +1487,7 @@ QUnit.equiv = (function() {
 						}
 					}
 
-					callers.pop(); // unstack, we are done
+					callers.pop(); // unstack,   done
 					parents.pop();
 
 					for ( i in b ) {
