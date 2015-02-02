@@ -4,21 +4,21 @@
 
 # Configuration variables specific to each project
 #------------------------------------------------------------------------
-SITE_NAME                      = 'Kathy Izard'
-URL_ROOT                        = 'http://kathyizard.dev.qsfllc.info/'
-AWS_BUCKET                      = 'kathyizard.dev.qsfllc.info'
-AWS_CLOUDFRONT_DISTRIBUTION_ID  = 'xxxxxxxxxxxx'
-#GOOGLE_ANALYTICS_ID            = 'UA-XXXXXXX-X'
+# SITE_NAME                      = 'Kathy Izard'
+# URL_ROOT                        = 'http://kathyizard.dev.qsfllc.info/'
+# AWS_BUCKET                      = 'kathyizard.dev.qsfllc.info'
+# AWS_CLOUDFRONT_DISTRIBUTION_ID  = 'xxxxxxxxxxxx'
+# #GOOGLE_ANALYTICS_ID            = 'UA-XXXXXXX-X'
 
 
-# Common configuration below here, should not need to be changed.
-#------------------------------------------------------------------------
+# # Common configuration below here, should not need to be changed.
+# #------------------------------------------------------------------------
 
 
-# Sent in on CLI by rake task
-#------------------------------------------------------------------------
-AWS_ACCESS_KEY                  = ENV['AWS_ACCESS_KEY']
-AWS_SECRET                      = ENV['AWS_SECRET']
+# # Sent in on CLI by rake task
+# #------------------------------------------------------------------------
+# AWS_ACCESS_KEY                  = ENV['AWS_ACCESS_KEY']
+# AWS_SECRET                      = ENV['AWS_SECRET']
 
 ###
 # Blog settings

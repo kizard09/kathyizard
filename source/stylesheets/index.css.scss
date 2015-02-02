@@ -5,14 +5,20 @@
 	.orbit-slide-number{
 		display:none;
 	}
-	.orbit-slides-container .orbit-caption{
-		background-color: transparent;
-		font-size:3.4rem;
-		padding-left:18%;
-		width:90%;
-		font-family:Poiret One;
-		bottom: 40%;
-	}
+	.orbit-slides-container {
+    img{
+      width:100%;
+      max-width:none;
+    }
+    .orbit-caption{
+  		background-color: transparent;
+  		font-size:3.4rem;
+  		padding-left:18%;
+  		width:90%;
+  		font-family:Poiret One;
+  		bottom: 40%;
+  	}
+  }
 }
 div.row.content{
 	padding-bottom:40px;

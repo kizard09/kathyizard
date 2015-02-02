@@ -1,8 +1,5 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source "https://rubygems.org"
 
-# ruby "2.1.3"
+source "https://rubygems.org"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
