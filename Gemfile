@@ -6,11 +6,11 @@ gem "builder", "~> 3.0"
 gem "sass", "3.4.5" # Sass 3.4.6 is broken, so using 3.4.5
 gem "font-awesome-sass"
 
-gem "middleman", "3.2.2" # Middleman 3.3.x all have issues, so using 3.2.2, the latest before 3.3.0
+gem "middleman" # Middleman 3.3.x all have issues, so using 3.2.2, the latest before 3.3.0
 gem "middleman-livereload"
 gem "middleman-search_engine_sitemap"
-gem "middleman-favicon-maker", "~> 3.7"
-gem "middleman-imageoptim", "~> 0.1.4"
+gem "middleman-favicon-maker"
+gem "middleman-imageoptim"
 gem "middleman-blog"
 #gem "middleman-title"
 
